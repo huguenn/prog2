@@ -1,4 +1,4 @@
-public class ColaTDA implements ColaTDA{
+public class ColaLD implements ColaTDA{
 Nodo primero;
 Nodo ultimo;
 public void InicializarCola (){
