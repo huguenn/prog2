@@ -6,10 +6,8 @@ public interface Grafo {
 //Aristas
 void AgregarArista(int vo, int vd, int peso);
 void EliminarArista(int vo, int vd);
-boolean ExisteArista(int vo, int vd);
-int PesoArista(int vo,int vd);
 }
-
+class NodoVertice{
   int info;
   NodoArista OA;
   NodoVertice sig;
