@@ -18,5 +18,11 @@ public class PilaLD implements PilaTDA {
     tope = tope.sig;
   }
 
-  public boolean
+  public boolean PilaVacia(){
+    return (tope==null);
+  }
+
+  public int Tope(){
+    return tope.info;
+  }
 }
